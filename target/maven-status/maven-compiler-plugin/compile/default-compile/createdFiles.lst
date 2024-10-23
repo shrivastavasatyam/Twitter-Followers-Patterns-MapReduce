@@ -1,4 +1,8 @@
 exact/Exact2HopCount$HopReducer.class
 exact/Exact2HopCount.class
 exact/Exact2HopCount$HopMapper.class
+approx/Approx2HopCount$ApproxMapper.class
+approx/Approx2HopCount$GlobalMetrics.class
+approx/Approx2HopCount.class
 exact/Exact2HopCount$GlobalMetrics.class
+approx/Approx2HopCount$ApproxReducer.class

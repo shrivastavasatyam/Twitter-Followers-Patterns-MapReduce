@@ -27,6 +27,7 @@ hs_err_pid*
 
 # Output directory content
 output/exact/
+output/approx/
 
 # AWS log local directory content
 /awslog/
