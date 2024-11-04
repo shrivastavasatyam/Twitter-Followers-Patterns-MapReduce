@@ -28,6 +28,7 @@ hs_err_pid*
 # Output directory content
 output/exact/
 output/approx/
+output/countedges/
 
 # AWS log local directory content
 /awslog/
