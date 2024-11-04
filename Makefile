@@ -6,12 +6,12 @@ hadoop.root=/usr/local/hadoop-3.3.5
 jar.name=mr-demo-1.0.jar
 jar.path=target/${jar.name}
 # Use job names accordingly -> Exact: exact.Exact2HopCount; Approx: approx.Approx2HopCount; RSJoin: rsjoin.RSJoinTriangleCount; RepJoin: repjoin.RepJoinTriangleCount; CountEdges: countedges.CountEdgesAfterMax
-job.name=countedges.CountEdgesAfterMax
+job.name=rsjoin.RSJoinTriangleCount
 local.input=input/edges.csv
 # Use output path accordingly -> Exact: output/exact; Approx: output/approx; RSJoin: output/rsjoin; RepJoin: output/repjoin; CountEdges: output/countedges
-local.output=output/countedges
+local.output=output/rsjoin
 # Use aws log path accordingly -> Exact: awslog/exact; Approx: awslog/approx; RSJoin: awslog/rsjoin; RepJoin: awslog/repjoin; CountEdges: awslog/countedges
-local.awslog=awslog/countedges
+local.awslog=awslog/rsjoin
 # Pseudo-Cluster Execution
 hdfs.user.name=joe
 hdfs.input=input
@@ -19,7 +19,7 @@ hdfs.output=output
 # AWS EMR Execution
 aws.emr.release=emr-6.10.0
 aws.region=us-east-1
-aws.bucket.name=cs6240-satyams-mr-bucket-v1
+aws.bucket.name=satyams-mr-bucket-v1
 aws.subnet.id=subnet-6356553a
 aws.input=input
 aws.output=output
